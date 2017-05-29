@@ -21,10 +21,12 @@ h4 {
 
 #header p {
 	font-family: 'Roboto', sans-serif;
-	width: 680px;
-	padding-left: 300px;
 	text-align: center;
+	margin-left: 250px;
+	margin-right: 250px;
+	
 }
+
 
 #question {
 	margin-top: 30px;

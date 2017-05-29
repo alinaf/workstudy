@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A look inside work-study</title>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!-- your CSS stylesheet -->
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <div id="header">
+  	<h1>WORK STUDY</h1>
+    <p>Federal work study is a part of financial aid packages for undergraduate and graduate students across the nation. Take an inside look at work study at three USC different locations.</p>
+  </div>
+  	
+
+<!-- question that changes on click -->
+  	<div id="question">
+  		<h2 id="q" >WHY DO YOU WORK AT...</h2>
+      <h4>Click to change the question</h4>
+  	</div>
+
+  </div>
+
+  <div id="gallery"> <!-- images with audio on top-->
+  	<div class="photo">
+      <div id = "natalie">
+          <img src="img/natalie.png" newpic="img/natalie2.png" ogpic="img/natalie.png"> 
+          <p>LEAVEY LIBRARY</p>
+      </div>
+      <div id = "grace">
+  		    <img src="img/grace.png" newpic="img/grace2.png" ogpic="img/grace.png">
+          <p>GALEN LAB</p>
+      </div>
+      <div id = "emelyn">
+  		  <img src="img/emelyn.png" newpic="img/emelyn2.png" ogpic="img/emelyn.png">
+        <p>FINE ARTS LIBRARY</p>
+      </div>
+     <h4>Click to hear each student's perspective</h4>
+  	</div>
+
+  	 <audio id="mysound" src="media/gwhy.mp3"></audio>
+  </div>
+
+  <div id="interviews"> <!-- full interviews on toggle -->
+  	<h2>FULL INTERVIEWS</h2>
+
+     <h3 interview = "#natalie-interview"> + Leavey Libray: Natalie Dunn '17' </h3>
+     <div id = "natalie-interview">
+      <p>
+          <i>Q: What do you do at Leavey?</i><br>
+          A: As student workers, we basically help patrons with any questions they may have about printing or checking out DVDs or books or items on reserve. We get phone calls about random questions on campus.<br><br>
+
+          <i>Q: What do people call you about?</i><br>
+          A: We get asked where certain buildings are on campus, or what are hours are, or other building — if VKC is open, that’s a common question.<br><br>
+
+          <i>Q: Why did you pick this location to do work study?</i><br>
+          A: Leavey is open 24 hour most of the week so it’s really convenient to work. I work 8 p.m. to midnight on Mondays, and no other library is open then and no other hours worked with my schedule.<br><br>
+
+          <i>Q: Has anything surprised you about working here?</i><br>
+          A: The training session when you first start is like four hours long and I didn’t expect to learn that much, or even that there was that much to learn. You learn how to sort the books, about all the different systems.<br><br>
+          <i>Dunn is studying computer science and business administration.</i>
+      </p>
+    </div>
+
+    <h3 interview = "#grace-interview"> + Galen Lab: Grace Costello '20</h3>
+    <div id = "grace-interview">
+      <p> 
+          <i>Q: How did you decide to do work study in the Galen Lab?</i><br>
+          A: I was referred to the Galen Lab from my friend my sorority who’s studying at Roski. I had never been here before.
+          <br><br>
+
+          <i>Q: What are your daily responsibilities?</i><br>
+          A: I feel like the kids in Roski are pretty independent. They know what they need to get done. It’s just helping them print their projects and if they have any questions about how to user the printer, or adjust their image, that’s what we help them with. A lot of kids come to us with big projects, which we do on the big printer, and we help them with sizing and cutting.
+          <br><br>
+
+          <i>Q: Was there any learning curve?</i><br>
+          A: [By April 26] I’ve only worked here for three days. I have a little bit of experience with Illustrator, Photoshop, InDesign, but I haven’t used it in two years so there’s a lot of things I’m not familiar with. The printers are really complicated and you don’t want to ruin anyone’s project. I’m still mainly shadowing because it does take a long time to develop the skills. 
+          <br><br>
+
+          <i>Q: You began working here pretty late in the semester. Do you plan on continuing the job next semester?</i><br>
+          A: Definitely. I started late because I applied in January and there was a waiting list. I took [the opening] as soon as I could to get it locked up for next year. Work study is kind of competitive. It’s a long process to find a job that worked with my academic schedule.
+          <br><br>
+          <i>Costello is studying classics.</i>
+      </p>
+    </div>
+
+    <h3 interview = "#emelyn-interview"> + Fine Arts Library: Emelyn Najera '17 </h3>
+     <div id = "emelyn-interview">
+      <p>
+        <i>Q: What do you do at the Fine Arts Library?</i><br>
+        A: I help visitors locate books and sometimes help them them do basic research, but for the most part, I shelve books and make sure that the whole library catalogue is in order.<br><br>
+
+        <i>Q: How did you choose this location for work study?</i><br>
+        A: They were the first location to interview me.<br><br>
+
+        <i>Q: Have you learned more about fine arts from working here?</i><br>
+        A: I've definitely learned more about the resources that the library has. I'm an architecture major, so I visited the library and knew about the library before I actually started coming here. I never knew that there was a study space, or that we had light tables or where the journal stacks where until I worked here.<br><br>
+
+        <i>Q: How competitive was work study for you??</i><br> 
+        A: In terms of receiving work study in financial aid, I wouldn't say it's that competitive. It's probably competitive once you actually start looking for jobs, especially at the library. Most people do want to work at the library, just because it's a pretty relaxed environment and it's not that hard. The number of applicants we receive and the number of people that come in — they all want a job here.<br><br>
+        <i> Najera is studying architecture.</i>
+      </p>
+    </div>
+
+   </div>
+ 
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
